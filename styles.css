@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+}
+
+.container#story {
+  justify-content: center;
+}
+
+.left {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+p {
+  font-family: "Roboto";
+  color: #413d4b;
+  font-size: 14px;
+  width: 540px;
+  height: 170px;
+  line-height: 22px;
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #413d4b;
+  font-family: "Playfair Display";
+  height: 47px;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+button {
+  font-size: 16px;
+  color: #00e0d0;
+  font-family: "Hammersmith One";
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 1px solid #00e0d0;
+}
