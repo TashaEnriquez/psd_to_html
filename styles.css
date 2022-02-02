@@ -41,3 +41,24 @@ button {
   background-color: transparent;
   border: 1px solid #00e0d0;
 }
+
+#video {
+  background-image: url("images/bgk-middle.png");
+  height: 550px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+h5 {
+  width: 460px;
+  height: 18px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto";
+}
