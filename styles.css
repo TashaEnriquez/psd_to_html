@@ -559,3 +559,125 @@ textarea {
   height: 70px;
   margin-top: 22px;
 }
+#container-7 {
+  background-image: url(images/bgk-footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  margin-top: 0;
+}
+.part-1 {
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  border: 20px;
+}
+a {
+  padding: 14px;
+  text-align: right;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #ffffff;
+}
+.part-2 {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+}
+#footer-flex {
+  display: flex;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.857;
+}
+.footer-info {
+  margin-left: 270px;
+  width: 290px;
+  height: 89px;
+}
+.studio {
+  display: flex;
+  flex-direction: column;
+}
+.maps {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+.part-4 {
+  margin-left: 230px;
+}
+.part-5 {
+  margin-left: 20px;
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-top: 20px;
+}
+.part-6 {
+  margin-left: 230px;
+}
+.pary-7 {
+  margin-left: 20px;
+}
+.stayintouch {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+}
+.part-9 {
+  display: flex;
+  color: #ffffff;
+  width: 38%;
+  height: 43px;
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: 1.857;
+  margin-left: 300px;
+  opacity: 0.5;
+}
+.paper {
+  border-width: 1px;
+  color: black;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 43px;
+  margin-left: 20px;
+  background-image: url(images/png/paper122.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+.socialmedia {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 110px;
+  margin-right: 170px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 85px;
+}
+.copyright {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  width: 224px;
+  height: 14px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 600px;
+}
