@@ -26,7 +26,8 @@ h2 {
   font-size: 30px;
   color: #00e0d0;
   font-family: "Roboto";
-  font-weight: 250;
+  font-weight: normal;
+  margin-left: 10px;
 }
 .item-2 {
   display: flex;
@@ -611,6 +612,7 @@ footer {
   line-height: 26px;
   color: #ffffff;
   font-family: "Roboto";
+  margin-left: 10px;
 }
 
 #newsletter {
@@ -667,4 +669,16 @@ h6 {
 
 .address img {
   height: 20px;
+}
+
+.number img {
+  height: 20px;
+}
+
+.social-media img {
+  margin-left: 5px;
+}
+
+#facebook {
+  margin-left: 0px;
 }
