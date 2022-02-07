@@ -39,6 +39,11 @@ nav {
   padding: 40px;
   border: 20px;
 }
+
+.homeBlue {
+  color: #00e0d0;
+}
+
 a {
   padding: 14px;
   text-align: right;
@@ -61,7 +66,6 @@ hr.new1 {
   align-items: center;
   border-top: 1px solid #00e0d0;
   margin-top: 20px;
-  margin-left: 876px;
   width: 50px;
   height: 1px;
 }
@@ -141,6 +145,8 @@ button {
   justify-content: center;
   flex-direction: column;
   margin-top: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h5 {
@@ -151,13 +157,17 @@ h5 {
   color: #ffffff;
   text-align: center;
   font-family: "Roboto";
+  margin-top: 30px;
 }
 
 #team {
   background-image: url("images/bgk-header.png");
-  height: 550px;
+  height: 700px;
+  background-size: cover;
   width: 100%;
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .white h3 {
@@ -180,9 +190,10 @@ h5 {
   display: flex;
   align-content: center;
   justify-content: center;
+  height: 300px;
 }
 
-.p1 {
+.container-p1 .p1 {
   width: 220px;
   font-size: 14px;
   letter-spacing: 1px;
@@ -191,32 +202,30 @@ h5 {
   text-align: center;
   font-weight: 900;
   margin-right: 1px;
+  margin-top: 10px;
 }
 
-.p2 {
+.container-p1 .p2 {
   width: 220px;
   font-size: 13px;
-  color: #fafafa;
+  color: #ebebeb;
   font-weight: 300;
   font-family: "Roboto";
   text-align: center;
-  margin-right: 10px;
+  margin-top: 0px;
 }
 
 .pic {
   background-color: #ffffff;
   width: 220px;
-  height: 500px;
   margin-right: 10px;
+  height: 200px;
 }
 
 .box {
   border: 1px solid #ffffff;
-}
-
-.container-p1 {
-  display: flex;
-  flex-direction: column;
+  width: 220px;
+  height: 75px;
 }
 
 .white button {
@@ -228,7 +237,7 @@ hr {
   width: 70px;
   height: 1px;
   background-color: #ffffff;
-  margin-left: 685px;
+  margin-left: 900px;
 }
 
 .font {
@@ -424,24 +433,24 @@ hr.new2 {
 hr.new3 {
   border: 1px solid #ebebeb;
   position: absolute;
-  left: 420px;
-  top: 2010px;
+  right: 500px;
+  top: 2055px;
   width: 940px;
   height: 1px;
 }
 .line1 {
   border: 1px solid #ebebeb;
   position: absolute;
-  left: 735px;
-  top: 1770px;
+  left: 780px;
+  top: 1800px;
   width: 1px;
   height: 500px;
 }
 .line2 {
   border: 1px solid #ebebeb;
   position: absolute;
-  left: 1065px;
-  top: 1770px;
+  left: 1125px;
+  top: 1800px;
   width: 1px;
   height: 500px;
 }
@@ -565,6 +574,8 @@ footer {
   background-image: url("images/bgk-footer.png");
   width: 100%;
   height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #container-7 {
@@ -584,7 +595,7 @@ footer {
   margin-top: 30px;
 }
 
-h4 {
+.f-sections {
   font-size: 15px;
   letter-spacing: 1px;
   color: #ffffff;
@@ -652,4 +663,8 @@ h6 {
 
 .number {
   display: flex;
+}
+
+.address img {
+  height: 20px;
 }
