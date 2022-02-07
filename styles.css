@@ -27,7 +27,6 @@ h2 {
   color: #00e0d0;
   font-family: "Roboto";
   font-weight: 250;
-  margin-left: 10px;
 }
 .item-2 {
   display: flex;
@@ -72,10 +71,12 @@ hr.new1 {
   text-align: center;
   color: #ffffff;
   font-weight: 300;
-  width: 771px;
-  height: 62px;
+  width: 800px;
+  height: 100px;
   padding: 50px;
+  display: flex;
   margin-left: 500px;
+  justify-content: center;
 }
 .item-5 {
   display: flex;
@@ -560,7 +561,6 @@ textarea {
   height: 70px;
   margin-top: 22px;
 }
-
 footer {
   background-image: url("images/bgk-footer.png");
   width: 100%;
